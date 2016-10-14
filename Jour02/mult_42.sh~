@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat passwd | cut -d : -f 3 | awk 

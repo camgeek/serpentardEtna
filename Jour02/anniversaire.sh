@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DATE=`date +%d-%m-%Y`
+echo $DATE
+
+

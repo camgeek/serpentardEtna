@@ -1,0 +1,12 @@
+#!/bin/bash
+if [[ $1 ]]
+then
+    echo $1 |tr -s " " 1 | tr -d "\n" | wc -m
+elif [ $# == 1 ]
+     then
+	 echo "0"
+else
+    echo -e ''
+fi
+
+
